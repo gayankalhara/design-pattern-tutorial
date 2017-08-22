@@ -1,7 +1,7 @@
 package AdaptorExample;
 
 public abstract class Message {
-    public String content;
+    private String content;
 
     public void setContent(String content){
         this.content = content;
