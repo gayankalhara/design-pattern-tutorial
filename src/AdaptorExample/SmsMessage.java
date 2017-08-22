@@ -7,6 +7,6 @@ public class SmsMessage extends Message {
 
     @Override
     public void send() {
-        System.out.println("Message sent via SMS!");
+        System.out.println(super.getContent() + System.lineSeparator() + "Message sent via SMS!");
     }
 }

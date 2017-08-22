@@ -7,6 +7,6 @@ public class EmailMessage extends Message {
 
     @Override
     public void send() {
-        System.out.println("Message sent via Email!");
+        System.out.println(super.getContent() + System.lineSeparator() + "Message sent via Email!");
     }
 }

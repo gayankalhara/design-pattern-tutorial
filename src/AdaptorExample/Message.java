@@ -7,5 +7,9 @@ public abstract class Message {
         this.content = content;
     }
 
+    public String getContent(){
+        return this.content;
+    }
+
     public abstract void send();
 }
